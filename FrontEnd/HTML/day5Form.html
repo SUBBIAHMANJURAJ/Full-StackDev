@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <header>
+            <h3>REGISTRATION FORM</h3>
+        </header>
+    </center>
+    <div class="name">
+    <form action="#">
+        <label for="name" class="name">Student Name</label><br><br>
+        <input type="text"for="name" id="name" placeholder="Enter your name" required >
+    </form>
+    </div><br>
+    <div class="mobile">
+        <label for="Mobile Number">Mobile Number</label>
+        <label for="Email Id">Email Id</label>
+    </div><br>
+    <div class="inp1">
+        <input type="number" placeholder="Enter Mobile Number">
+        <input type="email" placeholder="Enter Email Id">
+    </div><br>
+    <div class="course">
+       <label for="Course">Course</label>
+       <label for="Gender">Gender</label>
+    </div>
+     <div class="field">
+        
+            <select>
+            <option>--Select Course--</option>
+            <option>Fullstack</option>
+            <option>Frontend</option>
+            <option>Backend</option>
+        </select>
+        <div class="radio">
+        <input type="radio" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="other">
+        <label for="other">Other</label>
+        </div>
+        
+    </div> <br>
+    <div>
+        <label for="Student Photo">Student Photo</label>
+        <input type="file" id="Student Photo">
+        <label for="Address">Address</label>
+    </div>
+    <div class="textarea">
+        <textarea name="" id=""></textarea>
+    </div>
+    <button type="submit">Submit</button>
+</body>
+
+</html>
