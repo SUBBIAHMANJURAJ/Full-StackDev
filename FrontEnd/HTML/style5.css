@@ -1,0 +1,33 @@
+.name{
+    
+    width: 100%;
+}
+.name input{
+    width: 100%;
+    padding: 10px;
+    box-sizing:border-box;
+}
+.mobile{
+    display: flex;
+    gap:35%;
+}
+.inp1{
+    display: flex;
+    gap: 27%;
+}
+.course{
+    display:flex;
+    gap:42%;
+}
+.field{
+    display: flex;
+    gap: 32%;
+}
+.textarea{
+    width: 100%;
+    margin-left: 40%;
+    box-sizing: border-box;
+}
+button{
+    margin-left: 30%;
+}
