@@ -1,0 +1,154 @@
+.wrapper{
+    height: 550px;
+    width: 550px;
+    border: 3.5px solid black;
+    position: relative;
+    margin-left:35%;
+    
+    background-color:rgb(135, 174, 119);
+}
+.content{
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.image-container img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid rgb(204, 237, 146);
+    border-radius: 900px;
+    transition: 0.5s;
+
+}
+.image-container,img:hover{
+    transform:scale(1.1)
+}
+
+
+.image-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    height: 15px;
+}
+
+h2 {
+    text-align: center;
+    height: 60px;
+
+}
+
+h3.roll {
+    text-align: center;
+    height: 5px;
+    opacity: 0.5;
+}
+
+h3.class {
+    text-align: center;
+    opacity: 0.5;
+
+}
+
+.html {
+    background-color: grey;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    color: black;
+    transition:0.3s;
+}
+
+.css {
+    background-color: grey;
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+    color: black;
+    transition:0.3s;
+}
+
+.js {
+    background-color: grey;
+    height: 35px;
+    width: 70px;
+    border-radius: 10px;
+    transition:0.3s;
+}
+
+.react {
+    background-color: grey;
+    height: 35px;
+    width: 130px;
+    border-radius: 10px;
+    transition:0.3s;
+}
+
+.cricket {
+    background-color: grey;
+    height: 35px;
+    width: 110px;
+    border-radius: 10px;
+    transition:0.3s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    margin-bottom: 40px;
+    position: relative;
+    opacity: 0.85;
+
+
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    position: relative;
+     opacity: 0.85;
+
+
+}
+.container .css h4{
+    position: absolute;
+    align-items: center;
+
+}
+.html,.css,.js,.react,.cricket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.css:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.js:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.cricket:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.html:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.react:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
