@@ -3,7 +3,6 @@
 let a=18;
 if(a>=18){
     console.log("vote");
-    
 }
 
 // IF ELSE STATEMENT
