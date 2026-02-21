@@ -9,6 +9,5 @@ switch(signal){
     case "green":
         console.log("Go");
         break;
-        
-        
+               
 }

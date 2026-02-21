@@ -9,5 +9,4 @@ let num=17;
 for(num; num>=1; num++){
     console.log(num);
     
-    
 }
