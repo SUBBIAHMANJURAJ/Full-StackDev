@@ -14,6 +14,11 @@ console.log(fruits);
 fruits.splice(1,1,"goava")
 console.log(fruits);
 
+let fruits1=["Mango","Banana","Jack Fruit"]
+// fruits1.forEach((value,index,ogarr) => console.log(ogarr)
+// )
 
+fruits1.map(value => console.log(value)
+)
 
 

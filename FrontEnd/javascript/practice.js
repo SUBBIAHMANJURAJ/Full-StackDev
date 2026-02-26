@@ -60,6 +60,12 @@ console.log(arr14);
 
 
 
+let value=[2,4,6,8]
+value.map((value)=>{
+    value*3 
+    console.log(value)
+})
+
 
 
 
