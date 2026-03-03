@@ -109,6 +109,7 @@ return evenNum;
 }
 console.log(findEven([1,2,3,4,5,6,7,8,9]));
 
+// find odd number of an array 
 function findOdd(odd){
 let oddNum=[];
 for(i=0;i<odd.length;i++){
@@ -156,4 +157,46 @@ function divisible(num){
     }
 }
 divisible(10)
+
+// find elements in array is divisibe by 5
+function arrayDivisible(arr){
+    for(i=0;i<arr.length;i++){
+        if(arr[i]%5===0){
+            console.log(arr[i]+" is divisible by 5");
+            
+        }
+        else{
+            console.log(arr[i]+" is not divisible by 5");
+        }
+    }
+}
+arrayDivisible([1,5,10,12,15,20])
+
+// find the sum of the array 
+// to do 
+
+
+
+// ADD 5 to each element 
+
+function addNum(add5){
+    for(i=0;i<add5.length;i++){
+        add5[i]=add5[i]+5;
+    }
+    console.log(add5);
+    
+}
+addNum([1,2,3])
+
+
+
+
+
+
+
+
+
+
+
+
 
