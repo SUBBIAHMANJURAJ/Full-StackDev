@@ -1,32 +1,26 @@
-const Idelement=document.getElementById("heading");
-const Classelement=document.getElementsByClassName("para");
-const imgelement=document.getElementsByClassName("img")
-console.log("element:",Idelement);
-console.log("element1:",Classelement);
-console.log("imgelement:",imgelement);
+let btn=document.getElementById("btn");
+btn.addEventListener("click",(e)=>{
+    if(btn.innerHTML==="click me"){
+        btn.innerHTML="clicked ";
+        btn.style.backgroundColor="green";
+    }
+    else{
+        btn.innerHTML="click me";
+        btn.style.backgroundColor="";
+    }
+})
 
+let intro=document.getElementById("intro")
 
-
-let idQuery=document.querySelector("#heading");
-let classQuery=document.querySelector(".para")
-let classQueryAll=document.querySelectorAll(".para")
-console.log("idQuerry:",idQuery);
-console.log("classQuery:",classQuery);
-console.log("classQueryAll:",classQueryAll);
-
-document.querySelector(".container").innerHTML="<h1>Hellllllllooooooo</h1>"
-
-
-Idelement.style.color="brown";
-Classelement[0].style.color="blue";
-Classelement[0].style.background="yellow";
-
-Idelement.textContent="Welcome to DOM Manipulation";
-
-
-
-
-
-
+intro.addEventListener("mouseover",(e)=>{
+    intro.style.color="black";
+    intro.style.cursor="pointer";
+    intro.innerHTML="Welcome to dom manupulation";
+})
+intro.addEventListener("mouseout",(e)=>{
+    intro.style.color="black";
+    intro.style.cursor="default";
+    intro.innerHTML="My name is manju raj"
+})
 
 
