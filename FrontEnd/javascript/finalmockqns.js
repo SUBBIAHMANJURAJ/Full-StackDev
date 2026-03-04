@@ -224,5 +224,62 @@ function reverseArr(arr){
 }
 console.log(reverseArr([5, 15, 25, 35]));
 
+// Count how many times "a" appears in "banana".
+function findA(string){
+    let count=0;
+    for(i=0;i<string.length;i++){
+        if(string[i]==='a'){
+            count=count+1;
+        }       
+    }
+    return count;
+}
+console.log(findA("banana"));
+
+// Find the greater number between 8 and 3.
+function greaterNum(num1,num2){
+if(num1>num2){
+    console.log(num1,"is greater");
+    
+}
+else{
+    console.log(num2,"is greater");
+    
+}
+}
+greaterNum(8,3)
+
+// Print all even numbers between 1 and 10.
+function printEven(num){
+    for(i=1;i<=num;i++){
+        if(i%2==0){
+            console.log(i);
+        }
+    }
+}
+printEven(10)
+
+// Find the smallest number in [9, 3, 7, 2].
+function findsmall(arr){
+    let small=arr[0];
+    for(i=1;i<arr.length;i++){
+        if(small>arr[i]){
+            small=arr[i];
+        }
+    }
+    return small;
+}
+console.log(findsmall([9, 3, 7, 2]))
+
+// Reverse the string "world".
+function reverseStr(str){
+    let reversed="";
+    for(i=str.length-1;i>=0;i--){
+        //empty string 
+        reversed=reversed+str[i];
+    }
+    return reversed;
+}
+console.log(reverseStr("world"))
 
 
