@@ -282,4 +282,80 @@ function reverseStr(str){
 }
 console.log(reverseStr("world"))
 
+// Signal question without switch case
+function trafficSignal(light){
+    if(light=="red"){
+        console.log("your color is: "+light+" so you have to stop!");
+    }
+    else if(light=="yellow"){
+        console.log("your color is: "+light+" so you have to wait!");
+        
+    }
+    else if(light=="green"){
+        console.log("your color is: "+light+" so you can goo!");
+        
+    }
+    else{
+        console.log("default");
+        
+    }
+} 
+trafficSignal("red")
+trafficSignal("yellow")
+trafficSignal("green")
+
+// call back function 
+let numberss=[1,2,3,4,5];
+let result = numberss.map(function(num){
+    return num * 2;
+});
+
+console.log(result);
+
+function nocallback(arr){
+    let ans=[];
+    for(i=0;i<arr.length;i++){
+        ans.push(arr[i]*2)
+    }
+    return ans;
+}
+console.log(nocallback([1,2,3,4,5]));
+
+// Two methods to find how many even numbers in the array 
+// 1.function,loop,if 
+function toFindEven(arr){
+    let evenNumbers=[];
+for(i=0;i<arr.length;i++){
+    if(arr[i]%2 == 0){
+        evenNumbers.push(arr[i])
+    }
+}
+return evenNumbers;
+}
+console.log(toFindEven([1,66,32,55,75,92,97,99,100]));
+
+// 2.filter method 
+ let array=[1,66,32,55,75,92,97,99,100]
+ let evenResult=array.filter(num => num%2===0);
+ console.log(evenResult);
+ 
+//Multiply every number in the array 
+// 1.function method 
+function mulEverynum(arr){
+ let answer=[];
+ for(let i=0;i<arr.length;i++){
+    answer.push(arr[i]*4)
+ }
+ return answer;
+}
+console.log(mulEverynum([1,2,3,4,5]));
+
+// 2.map method
+let array1=[1,2,3,4,5];
+let mulAns=array1.map(num => num+4)
+console.log(mulAns);
+
+
+
+
 
