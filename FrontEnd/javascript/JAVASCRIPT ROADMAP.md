@@ -131,6 +131,7 @@ To Learn:
     c.Promise
     d.async/await
     e.fetch API
+    f.callback function
 
 14.(MOST MOST IMPORTANT)
 Problem Solving:
