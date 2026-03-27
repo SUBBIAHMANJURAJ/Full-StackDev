@@ -5,7 +5,8 @@
 function skipingNumbers(n) {
     for (i = n; i > 1; i--) {
         if (i === 5 || i === 10) {
-            continue; 
+            continue;
+        
         }
         
         console.log(i);

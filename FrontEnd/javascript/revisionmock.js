@@ -103,6 +103,84 @@ for(i=str.length-1;i>=0;i--){
 return reversed;
 }
 console.log("The reverse output is:"+reverseString("hello"));
+// Count how many even numbers are in [1,2,3,4,5,6].
+function howMany(arr){
+    let counted=[];
+    for(i=0;i<=arr.length;i++){
+        if(arr[i]%2==0){
+            counted++
+        }
+    }
+    return counted;
+
+}
+console.log("There are totally "+howMany([1,2,3,4,5,6])+" even numbers");
+// Check if 10 is divisible by 5.
+function checkDiv(n){
+    if(n%5===0){
+        console.log("divisible by 5");
+        
+    }
+    else{
+        console.log("not divisible by 5");
+        
+    }
+}
+checkDiv(10)
+// my own question check whether what numbers from this array can divisible by 5 if divisible add the sum 
+function divBy5(arr){
+    let divNum=[];
+    for(i=0;i<=arr.length;i++){
+        if(arr[i]%5===0){
+            divNum++
+        }
+    }
+    return divNum;
+}
+console.log("There are totally "+divBy5([1,34,2,5,67,990,332,689,300,56,75])+" numbers that are divisible by 5");
+// Find the smallest number in [12, 4, 6].
+function findSmallNumber(arr){
+    let smaller=arr[0];
+    for(i=0;i<=arr.length;i++){
+        if(smaller>arr[i]){
+            smaller=arr[i];
+        }
+    }
+    return smaller;
+}
+console.log("The smallest Number is :"+findSmallNumber([12,4,6]));
+// Count how many properties are in { a:1, b:2, c:3 }.
+function howMany(obj){
+    let val=0;
+    for(let key in obj){
+        val++
+    }
+    return val;
+}
+console.log("there are totally "+howMany({a:1,b:2,c:3})+"properties");
+// Create an array with only odd numbers from [1,2,3,4,5].
+function onlyOdd(arr){
+    let oddVal=[];
+    for(i=0;i<arr.length;i++){
+        if(arr[i]%2!=0){
+            oddVal.push(arr[i]);
+        }
+    }
+    return oddVal;
+}
+console.log(onlyOdd([1,2,3,4,5]));
+// find how many even numbers are there in the array using filter method
+let arrayy=[122,2,344,53,33,221,345,6777,889954,211,322,90];
+let anss=arrayy.filter((num)=>num%2==0);
+console.log(anss);
+
+
+
+
+
+
+
+
 
 
 

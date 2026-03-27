@@ -48,3 +48,28 @@ This project is suitable for learning and demonstrating basic frontend developme
 ---
 
 ## 📂 Folder Structure
+
+REACT:
+Component is the building block of react
+1.class component
+2.functional component
+
+1.FUNCTIONAL COMPONENT:
+It is js function which returns jsx.
+
+function BoxModel(){
+
+  return()
+}
+
+REACT HOOKS:
+spcial fun by react--> state management, life cycle methods, sideEffects
+state: state is special memory inside a comp that hold data which can change over time
+
+useState()
+import { useState } from react
+        hook
+        [currentState, setState] = useState(0)
+now currentState-->0;
+        click(setState(10))
+        
