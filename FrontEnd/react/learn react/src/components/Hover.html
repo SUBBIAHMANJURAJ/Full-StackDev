@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="head">
+        <button id="btn">Welcome</button>
+    </div><br>
+    <div id="colorBox" style="height: 35px;width: 120px;border: 1px solid;text-align: center;">Colour Box</div>
+    <br>
+    <div id="move" style="height: 35px;width: 85px;border: 1px solid;text-align: center;">Hover Me</div>
+    <script>
+        const head=document.getElementById("head")
+        head.addEventListener("click",function(){
+            btn.textContent="Hello Students";
+        });
+
+        const colorBox=document.getElementById("colorBox")
+        colorBox.addEventListener("click",function(){
+            colorBox.style.backgroundColor=colorBox.style.backgroundColor==="yellow"?"white":"yellow"
+            colorBox.style.color=colorBox.style.color==="red"?"black":"red"
+            
+        })
+        
+        const move=document.getElementById("move")
+        move.addEventListener("mouseover",function(){
+            move.style.backgroundColor="green";
+        });
+        move.addEventListener("mouseout",function(){
+            move.style.backgroundColor="white";
+        });
+        
+    </script>
+</body>
+</html>

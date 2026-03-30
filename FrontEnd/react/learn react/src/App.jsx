@@ -1,4 +1,5 @@
-import Counter from './components/Counter'
+// import Counter from './components/Counter'
+import Box from './components/Box';
 import Welcome from './components/Welcome'
 
 
@@ -7,8 +8,9 @@ function App() {
 
   return (
   <>
-    <Counter/>
+    {/* <Counter/> */}
     <Welcome/>
+    <Box/>
   </>
   )
 }
