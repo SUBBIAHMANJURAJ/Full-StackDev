@@ -2,9 +2,7 @@ import React from 'react'
 
 const MultipleObjs = (props) => {
   return (
-    <div>
-        
-    </div>
+    <h1>{props.name} {props.age} {props.gender}</h1>
   )
 }
 
