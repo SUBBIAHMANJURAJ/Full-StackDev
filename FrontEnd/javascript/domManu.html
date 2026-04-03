@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="text"></p>
+    <p id="count">1</p>
+    <button onclick="showText()">Click me</button>
+    <button onclick="onOff()" id="OnOff">OFF</button>
+    <button onclick="changeBackground()" id="toggle">Hellooooooo</button>
+    <button onclick="increment()">Click to Increase</button>
+    <button onclick="decrement()">Click to Decrease</button>
+    <button onclick="resetButton()">Reset</button>
+    
+
+    <script>
+
+        function showText(){
+          let showText=  document.getElementById('text');
+          showText.textContent=showText.textContent==="welcome"?"hello":"welcome";
+
+        }
+        function onOff(){
+           let btn= document.getElementById('OnOff');
+            btn.textContent=btn.textContent === "OFF" ? "ON" :"OFF";
+        }
+
+        function changeBackground(){
+            let button=document.getElementById('toggle');
+            button.style.backgroundColor =button.style.backgroundColor === "blue"?"yellow":"blue";
+        }
+        function increment(){
+           let count= document.getElementById('count');
+            count.textContent=Number(count.textContent)+1;
+        }
+        function decrement(){
+            let count=document.getElementById('count');
+            Number(count.textContent--)
+        }
+        function resetButton(){
+            let count=document.getElementById('count')
+            count.textContent=0;
+        }
+        
+        
+
+
+
+    </script>
+</body>
+</html>
