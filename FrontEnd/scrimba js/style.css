@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background image */
+body {
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background: url("https://images.unsplash.com/photo-1518655048521-f130df041f66") no-repeat center center/cover;
+}
+
+/* Blur overlay */
+.overlay {
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(4px); /* blur effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* White card (like screenshot box) */
+.card {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px 50px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  height: 450px;
+
+}
+.btn1 {
+    height: 35px;
+    width: 155px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(168, 30, 30);
+}
+.btn2 {
+    height: 35px;
+    width: 155px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(168, 63, 63);
+    
+}
+.resBtn {
+    height: 35px;
+    width: 155px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(177, 64, 64);
+}
+
+/* Heading */
+h1 {
+  font-size: 42px;
+  font-weight: 800;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* Blue counter box */
+#count {
+  display: inline-block;
+  font-size: 55px;
+  font-weight: bold;
+  background-color: #d7dce1;
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+
+.card .count button{
+    background-color: red;
+}
