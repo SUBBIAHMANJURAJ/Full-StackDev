@@ -14,4 +14,10 @@ const resetButton=document.querySelector('.resBtn')
 resetButton.onclick=()=>{
     count=0;
     countElement.textContent=count;
+    
 }
+
+
+
+
+

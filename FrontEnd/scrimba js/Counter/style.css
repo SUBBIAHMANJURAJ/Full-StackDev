@@ -36,14 +36,17 @@ body {
     width: 155px;
     cursor: pointer;
     border-radius: 5px;
-    border-color: rgb(168, 30, 30);
+    border-color: rgb(255,255,255);
+    background-color: rgb(117, 196, 117);
 }
 .btn2 {
     height: 35px;
     width: 155px;
     cursor: pointer;
     border-radius: 5px;
-    border-color: rgb(168, 63, 63);
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(117, 196, 117);
+    
     
 }
 .resBtn {
@@ -51,7 +54,8 @@ body {
     width: 155px;
     cursor: pointer;
     border-radius: 5px;
-    border-color: rgb(177, 64, 64);
+    border-color: rgb(45, 9, 9);
+    background-color: rgb(208, 76, 76);
 }
 
 /* Heading */
