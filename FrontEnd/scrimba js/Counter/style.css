@@ -38,6 +38,7 @@ body {
     border-radius: 5px;
     border-color: rgb(255,255,255);
     background-color: rgb(117, 196, 117);
+    font-weight: bold;
 }
 .btn2 {
     height: 35px;
@@ -46,6 +47,7 @@ body {
     border-radius: 5px;
     border-color: rgb(255, 255, 255);
     background-color: rgb(117, 196, 117);
+    font-weight: bold;
     
     
 }
@@ -56,6 +58,7 @@ body {
     border-radius: 5px;
     border-color: rgb(45, 9, 9);
     background-color: rgb(208, 76, 76);
+    font-weight: bold;
 }
 
 /* Heading */
